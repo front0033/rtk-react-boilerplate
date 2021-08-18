@@ -1,8 +1,9 @@
-# Getting Started with CRA & RTK & MUI
+# Getting Started with CRA & Typescript & RTK & MUI
 
 This project was bootstrapped with
 
 - [Create React App](https://github.com/facebook/create-react-app)
+- [Typescript](https://www.typescriptlang.org/)
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [Material UI](https://material-ui.com/)
 
@@ -54,3 +55,14 @@ You can learn more in the
 [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## With Docker
+
+It is possible to build and use a Docker container. To start the container, set all the required environment variables.
+The application in the container runs on the port ** 27182 **. Startup example -
+
+```
+docker run --rm -d\
+ -e API_ITEMS_URL=http://example.ru/\
+ -p 8080:27182 docker-nlp-dev-local.x5.ru/nlp-front
+```
