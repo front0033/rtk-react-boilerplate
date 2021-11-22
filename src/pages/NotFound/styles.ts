@@ -1,6 +1,7 @@
-import { createStyles, makeStyles } from '@material-ui/core/styles';
+import { makeStyles, createStyles } from '@mui/styles';
+import { Theme } from '@mui/material';
 
-const useStyles = makeStyles((theme) =>
+const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       paddingTop: theme.spacing(7),

@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import { Button, Grid, Typography } from '@material-ui/core';
-import SentimentVeryDissatisfied from '@material-ui/icons/SentimentVeryDissatisfied';
+import { Button, Grid, Typography } from '@mui/material';
+import SentimentVeryDissatisfied from '@mui/icons-material/SentimentVeryDissatisfied';
 import { Link } from 'react-router-dom';
 
 import useStyles from './styles';
